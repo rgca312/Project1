@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    background-image: url(background\ img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: fixed;
+    color: yellow;
+}
+
+{
+    .container {width: 40%; margin:auto;}
+}
+.menu table {
+        width: 100%;
+        margin: 5px auto 5px !important;
+        padding-bottom: 0%;
+        table-layout: fixed;
+        border-collapse: collapse;
+        border: none !important;
+}
+
+.menu td{
+    padding: 1em 0 0 0 !important;
+    vertical-align: bottom;
+    background-image: radial-gradient(#f2ff00 1px, #000000 0px);
+    background-size: 8px 8px;
+    background-repeat: repeat-x;
+    background-position: left bottom;
+    border: none !important;
+}
+
+.menu td span{
+    background-color: #000000;
+    padding: 8px 0;
+}
+
+.menu td:first-child {
+    text-align: left;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.7em;
+}
+.menu td:first-child span{
+    padding-right: 0;
+}
+
+.menu td:last-child span{
+    text-align: right;
+    width: 20%;
+    line-height: 1.7em;
+}
+
+.menu td:last-child span{
+    padding-left: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .menu td:first-child, .menu td:last-child {
+        font-size: .9em;
+        line-height: 1.7em;
+    }
+}
