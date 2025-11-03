@@ -160,3 +160,6 @@ h1::before{
 .footernav{
     margin: 30px 0;
 }
+.contactinfo{
+    font-size: 30px;
+}
