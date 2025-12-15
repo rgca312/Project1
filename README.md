@@ -3,7 +3,7 @@ Small Taco restaurant This restaurant started as a food truck and now they have 
  # Technologies 
 1. HTML 
 2. CSS 
- # Future Ideas 
+ # Add-ons
  Add a navbar 
  Gallery using a carousel
 # Feautures
@@ -13,3 +13,4 @@ Social icons
 Phone Number
 
 Google Map Location 
+
