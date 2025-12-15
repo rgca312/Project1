@@ -7,10 +7,10 @@ Small Taco restaurant This restaurant started as a food truck and now they have 
  Add a navbar 
  Gallery using a carousel
 # Feautures
-Pictures
-Links
-Social icons
-Phone Number
+1.Pictures
+2.Links
+3.Social icons
+4.Phone Number
+5.Google Map Location 
 
-Google Map Location 
 
