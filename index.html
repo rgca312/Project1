@@ -3,100 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tacos Dany</title>
+    <title>Danys Tacos</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <h1>Danys Tacos</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#location">Location</a></li>
+                <li><a href="#media">Media</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="home-content">
+            <h2>Welcome to Danys Tacos</h2>
+            <p>Authentic Street Mexican Cuisine</p>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="resources/Tacos.jpg"alt="Tacos">
+            </div>
+            <div class="gallery-item">
+                <img src="resources/tortadejamon.jpg" alt="Tortas">
+            </div>
+            <div class="gallery-item">
+                <img src="resources/quesadilladebistec.jpg" alt="Quesadilla">
+            </div>
+            <div class="gallery-item">
+                <img src="resources/Burritos.jpg" alt="Burrito">
+            </div>
+            <div class="gallery-item">
+                <img src="resources/trompo de pastor.jpg" alt="Trompo">
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1613514785940-daed07799d9b?w=400" alt="Tacos Al Pastor">
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location" class="location">
+        <h2>Find Us</h2>
+        <div class="location-content">
+            <div class="location-info">
+                <h3>Visit Our Restaurant</h3>
+                <p><strong>Address:</strong> 401 S Blue Mound Rd, Fort Worth, TX 76131</p>
+                <p><strong>Phone:</strong> (682) 371-2856</p>
+                <p><strong>Hours:</strong> Monday - Wednesday: 9:00 AM - 10:00 PM </p>
+                <p>Thursday - Saturday: 10:00 AM - 11:00 PM</p>
+                <p>Sunday: 10:00 AM - 10:00 PM</p>
+            </div>
+            <div class="map">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13405.927211009337!2d-97.34016775449217!3d32.85896954984886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e7700745d33fb%3A0xb4b9c906fe55b091!2sTacos%20Dany!5e0!3m2!1sen!2sus!4v1765780931994!5m2!1sen!2sus" 
+                    width="600" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Media Section -->
+    <section id="media" class="media">
+        <h2>Follow Us on Social Media</h2>
+        <div class="social-icons">
+            <a href="https://facebook.com" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter">
+            </a>
+            <a href="https://tiktok.com" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" alt="TikTok">
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <div class="menu-container">
-        <h1>Tacos Dany</h1>
-        <div class="menu-section">
-          <div class="menu-item">
-            <div>
-                <h3>Tacos</h3>
-                <span>$2.50</span>
-                <p>Choice of meat, Onions, Cilantro, Limes, Salsa, Caromalized onions</p>
-            </div>
-            <img src="./resources/tacosdebarbacoa.jpg" alt="tacosdebarbacoa">
-          </div>  
-          <div class="menu-item">
-            <div>
-                <h3>Quesadillas</h3>
-                <span>$7.50</span>
-                <p>Choice of meat, Monterrey Cheese, Lettuce, Tomatoe, Limes, Salsa, Caromalized onions</p>
-            </div>
-            <img src="./resources/quesadilladebistec.jpg" alt="quesadilladebistec">
-          </div>  
-          <div class="menu-item">
-            <div>
-                <h3>Burritos</h3>
-                <span>$6.50</span>
-                <p>Choice of meat, mexican rice, refried beans, Queso, Sour Cream, Guacamole, Pico de Gallo</p>
-            </div>
-            <img src="./resources/Burritos.jpg" alt="Burritos">
-          </div>  
-          <div class="menu-item">
-            <div>
-                <h3>Tortas</h3>
-                <span>$9.00</span>
-                <p>Choice of meat, Avocado, Lettuce, Tomatoe, Mayo, Sour cream, Fresh Cheese, Jalapenos, Onions</p>
-            </div>
-            <img src="./resources/tortadejamon.jpg" alt="tortadejamon">
-          </div>  
-          <div class="menu-item">
-            <div>
-                <h3>Sincronizada</h3>
-                <span>$8.50</span>
-            <p>Choice of meat, Avocado, Caromalized Onions, Tomatoe, Monterrey Cheese, Limes, Salsa, Lettuce, Jalapenos</p>            </div>
-            <img src="./resources/Sincronizada.jpg" alt="Sincronizada">
-          </div>  
-        </div>
-        
-        <div class="meats-beverages">
-         <div>
-            <h4>Beverage</h4>
-            <ul>
-                <li><span>Coca Mexicana</span> <span>3.50</span></li>
-                <li><span>Coke can</span> <span>2.00</span></li>
-                <li><span>Sprite can</span> <span>2.00</span></li>
-                <li><span>Jarritos</span> <span>2.50</span></li>
-                <li><span>Water</span> <span>1.00</span></li>
-            </ul>
-         </div>
-         <div>
-            <h4>Meats</h4>
-            <ul>
-                <li><span>Trompo</span> <span>(see menu)</span></li>
-                <li><span>Bistec</span> <span>(see menu)</span></li>
-                <li><span>Barbacoa</span> <span>(see menu)</span></li>
-                <li><span>Desebrada</span> <span>(see menu)</span></li>
-                <li><span>Chicharron</span> <span>(see menu)</span></li>
-                <li><span>Pollo</span> <span>(see menu)</span></li>
-                <li><span>Tripa</span> <span>(1$ extra)</span></li>
-            </ul>
-         </div>
-            
-        </div>
-    </div>
-    <div class="googlemaps">
-        <h5>Location</h5>
-        <div><iframe src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d837.8766577955892!2d-97.3427348!3d32.8583124!3m2!1i1024!2i768!4f13.1!2m1!1stacos%20dany!5e0!3m2!1sen!2sus!4v1762145806504!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-    </div>
-    </div>
-    <div class="footercontainer">
-        <div class="socialicons">
-            <a href=""><i><div class="fa-brands fa-facebook"></div></i></a>
-            <a href=""><i><div class="fa-brands fa-instagram"></div></i></a>
-            <a href=""><i><div class="fa-brands fa-google-plus"></div></i></a>
-        </div>
-        <div class="contactinfo">
-            <h6>(682) 371-2856</h6>
-        </div>
-        <div class="footerbottom">
-            <p>Copyright &copy; 2025 Designed by <span> <div class="designer">Raul G Cerda </div></span> </p>
-        </div>
-    </div>
+        <p>&copy; 2024 Danys Tacos. All Rights Reserved.</p>
     </footer>
 </body>
 </html>
